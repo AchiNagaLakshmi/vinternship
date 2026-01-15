@@ -127,6 +127,7 @@ iframe {
 <!-- ================= TOP TABS ================= -->
 <div class="tabs">
   <div class="tab active" onclick="showTab(0)">Dashboard</div>
+  <div class="tab" onclick="showTab(1)">Pinternship_NPTEL</div>
   <div class="tab" onclick="showTab(1)">Acropolis</div>
   <div class="tab" onclick="showTab(2)">Indira</div>
   <div class="tab" onclick="showTab(3)">Saintgits</div>
@@ -143,7 +144,7 @@ iframe {
     </div>
 
     <div class="dashboard-view">
-      <iframe class="dash-frame active" src="./statewise_percentage_map_4.html"></iframe>
+      <iframe class="dash-frame active" src="">This will update soon</iframe>
      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxK1XQkoVzt8nivAgMTCu_f2fey9Ldlq6fd2c_Pqh8w4Y-uEB5ZDqwBypmfQsXJRiL59yisPaMMw9W/pubhtml?gid=1035117874&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     </div>
 
@@ -152,7 +153,35 @@ iframe {
 
 <!-- ================= TAB 1–4 : INSTITUTES ================= -->
 <!-- SAME STRUCTURE REUSED -->
+<div class="tab-content">
+  <div class="dashboard-inner">
 
+    <div class="dashboard-menu">
+      <div class="menu-item active" onclick="showInner(1,0)">Leaderboard</div>
+      <div class="menu-item" onclick="showInner(1,1)">CS Progress</div>
+      <div class="menu-item" onclick="showInner(1,2)">Ticket Holders</div>
+    </div>
+
+    <div class="dashboard-view">
+  <!-- Leaderboard -->
+  <iframe class="dash-frame active"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUPY0XTEHD0wOvxr1kGnsTP9NB-mQIIJl74-79P8uBI9XTF4gEfqAUJJGSIqpCT2pspn_beEnMy7A2/pubhtml?gid=83067525&amp;single=true&amp;widget=true&amp;headers=false">
+  </iframe>
+
+  <!-- CS Progress -->
+  <iframe class="dash-frame"
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUPY0XTEHD0wOvxr1kGnsTP9NB-mQIIJl74-79P8uBI9XTF4gEfqAUJJGSIqpCT2pspn_beEnMy7A2/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
+  </iframe>
+
+  <!-- Tickets -->
+  <div class="dash-frame placeholder">
+    Ticket holders dashboard will be added here.
+  </div>
+</div>
+
+
+  </div>
+</div>
 <div class="tab-content">
   <div class="dashboard-inner">
 
